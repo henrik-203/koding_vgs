@@ -4,6 +4,6 @@ let test1 = 'test';
 
 let tobias = 'lande';
 
-let Wang = 'king'
+let Wang = 'king';
 
-let Hanberg = 'live'
+let Hanberg = 'live';
