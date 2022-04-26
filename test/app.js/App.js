@@ -24,8 +24,11 @@ export default function App() {
     <View style={styles.container}>
       <SafeAreaView style ={{alignSelf: "stretch"}}>
         <View style ={{ marginHorizontal: 32, marginTop: 32}}>
-          <View style ={styles.topContainer}>
-              <AntDesign name="arrowleft" size={"20"} color={gray} />
+          <View style ={styles.topContainer}> 
+              <NeuMorph>
+                  <AntDesign name="arrowleft" size={"20"} color={gray} />
+              </NeuMorph>
+              
 
           </View>
             <Text style={styles.playing}>PLAYING NOW</Text>
