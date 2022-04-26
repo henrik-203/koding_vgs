@@ -27,6 +27,7 @@ export default function App() {
           <View style ={styles.topContainer}> 
               <NeuMorph>
                   <AntDesign name="arrowleft" size={"20"} color={gray} />
+              
               </NeuMorph>
               
 
@@ -45,7 +46,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#DEE9FD',
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'left',
 
   },
 });
